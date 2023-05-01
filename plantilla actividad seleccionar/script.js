@@ -1,20 +1,21 @@
-// NO MOVER
+// Definición de variables globales
+
+// Aquí queda el puntaje de esta actividad, 1 o 0
 var puntaje = null;
 
-// Poner en la segunda cadena (que está vacía) el número de la opción correcta
-var idOpcionCorrecta = "imagen" + "4";
-
-// NO MOVER
 var idSeleccion = null;
 
-//CUANDO TERMINEN DE HACER LA ACTIVIDAD, COMENTAR LA SIGUIENTE LÍNEA PARA QUITAR EL BORDE DEL CONTENEDOR
+// Poner en la segunda cadena (que está vacía) el número de la opción correcta
+// Aquí va la opción que es correcta para ser calificada
+var idOpcionCorrecta = "opcion" + "1";
+
+//Contenedor solo para guiarse
 document.getElementsByClassName("contenedor")[0].style.border="solid black";
 
-// NO MOVER
+// Botón de continuar
 var boton = document.getElementById('btn-continuar');
 boton.addEventListener('click', procesarPuntaje, false);
 
-// NO MOVER
 function mostrarContinuar() {
 	document.getElementById('continuar').style.display = "block";
 }
@@ -36,7 +37,7 @@ function procesarPuntaje() {
 		ocultarContinuar();
 	} else {
 		console.log("El puntaje es: ", puntaje);
-		parent.enviarPuntaje(puntaje);
+		// Aquí deberia enviarse el puntaje a una función global que procese el puntaje de toda la prueba
 	}
 }
 
@@ -52,16 +53,17 @@ function Correcto() {
 
 // NO MOVER
 function sonido(id) {
-	audio = getElementById('audio'+id);
+	let audio = document.getElementById("audio"+id);
 	console.log(audio);
 	audio.pause();
 	audio.currentTime = 0;
 	audio.play();
 }
 
-// NO MOVER
+// Evento cuando se selecciona alguna de las opciones
 function seleccionar(id){
 	
+	sonido(id);
 	id = "opcion"+id;
 	console.log("El id del seleccionado es:", id);
 	
@@ -72,7 +74,7 @@ function seleccionar(id){
 		document.getElementById(idOpcionActual).style.border = "none";
 	}
 
-	document.getElementById(id).style.border = "solid thick lightgreen";
+	document.getElementById(id).style.border = "2px solid #28a745";
 
 	idSeleccion = id;
 	mostrarContinuar();

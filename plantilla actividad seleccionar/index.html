@@ -17,15 +17,18 @@
 <body>
 	<div class="contenedor">
 
+		<!-- El encabezado: -->
+		<img id= "encabezado" src="encabezado.png" alt="encabezado de color verde menta">
+
 		<div class="instruccion">
 			<div>
-				<a href="#" onclick="sonido(1)"><img src="bocina.png" alt="Ícono de bocina" id="icono-bocina" title="Da click aquí para escuchar la instrucción"></a>
-				<audio id="audio1" controls hidden="true">
-					<source src="sonido.mp3" type="audio/mpeg">
+				<a href="#" onmouseover="sonido(0)" ><img src="bocina.png" alt="Ícono de bocina" id="icono-bocina" title="¡Escucha aquí!"></a>
+				<audio id="audio0" controls hidden="true">
+					<source src="audio0.mp3" type="audio/mpeg">
 				</audio>
 			</div>
 			<!-- Aquí va la instrucción de la actividad -->
-			<h2 id="texto">Selecciona la palabra que corresponde a la imagen</h2>
+			<a href="#" onclick="sonido(0)" style="text-decoration:none; outline:none;"><h2 id="texto" title="¡Da clic para escuchar!">Selecciona la palabra que corresponde a la imagen</h2></a>
 		</div>
 
 		<!-- Aquí va la imagen correspondiente -->
@@ -36,23 +39,38 @@
 		<!-- Aquí van las opciones de respuesta -->
 
 		<div id="opcion1">
-			<a href="#" onclick="seleccionar(1)" class="opciones" id="1"><img src="opcion1.png" height="32" alt="imagen de una jirafa"></a>
+			<a href="#" onclick="seleccionar(1)" class="opciones" id="1"><img src="opcion1.png" height="32" alt="imagen de una jirafa" title="Clic para escuchar"></a>
+			<audio id="audio1" controls hidden="true">
+				<source src="audio1.mp3" type="audio/mpeg">
+			</audio>
 		</div>
 		<div id="opcion2">
-			<a href="#" onclick="seleccionar(2)" class="opciones" id="2"><img src="opcion2.png" height="32" alt="imagen de una jirafa"></a>
+			<a href="#" onclick="seleccionar(2)" class="opciones" id="2"><img src="opcion2.png" height="32" alt="imagen de una gusano" title="Clic para escuchar"></a>
+			<audio id="audio2" controls hidden="true">
+				<source src="audio2.mp3" type="audio/mpeg">
+			</audio>
 		</div>
 		<div id="opcion3">
-			<a href="#" onclick="seleccionar(3)" class="opciones" id="3"><img src="opcion3.png" height="32" alt="imagen de una jirafa"></a>
+			<a href="#" onclick="seleccionar(3)" class="opciones" id="3"><img src="opcion3.png" height="32" alt="imagen de una camello" title="Clic para escuchar"></a>
+			<audio id="audio3" controls hidden="true">
+				<source src="audio3.mp3" type="audio/mpeg">
+			</audio>
 		</div>
 		<div id="opcion4">
-			<a href="#" onclick="seleccionar(4)" class="opciones" id="4"><img src="opcion4.png" height="32" alt="imagen de una jirafa"></a>
+			<a href="#" onclick="seleccionar(4)" class="opciones" id="4"><img src="opcion4.png" height="32" alt="imagen de una araña" title="Clic para escuchar"></a>
+			<audio id="audio4" controls hidden="true">
+				<source src="audio4.mp3" type="audio/mpeg">
+			</audio>
 		</div>
 		
 		
 
 		<!-- Aquí va el botón de continuar -->
 		<div id="continuar">
-			<button id="btn-continuar">Continuar</button>
+			<button id="btn-continuar" onmouseover="sonido(5)">Continuar</button>
+			<audio id="audio5" controls hidden="true">
+				<source src="audio5.mp3" type="audio/mpeg">
+			</audio>
 		</div>
 
 	</div>
