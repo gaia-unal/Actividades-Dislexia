@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Div con texto en Open Dyslexic</title>
+	<!-- Importar Open Dyslexic -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=OpenDyslexic&display=swap" rel="stylesheet">
+	<style>
+		#texto {
+			font-family: 'Open Dyslexic', sans-serif;
+			font-size: 24px;
+			color: #000000;
+			text-align: center;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div id="texto">Selecciona la palabra que corresponde a la imagen</div>
+
+	<!-- Script para importar Open Dyslexic -->
+	<script>
+		WebFontConfig = {
+			google: { families: [ 'Open+Sans+Condensed:300', 'OpenDyslexic:regular' ] }
+		};
+		(function(d) {
+			var wf = d.createElement('script'), s = d.scripts[0];
+			wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+			wf.async = true;
+			s.parentNode.insertBefore(wf, s);
+		})(document);
+	</script>
+</body>
+</html>

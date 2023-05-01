@@ -1,0 +1,5 @@
+Grado: 
+Nivel: 
+Tipo: 
+Categoría: 
+Enunciado: 
