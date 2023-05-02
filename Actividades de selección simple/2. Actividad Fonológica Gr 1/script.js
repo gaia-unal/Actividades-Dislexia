@@ -7,7 +7,7 @@ var idSeleccion = null;
 
 // Poner en la segunda cadena (que está vacía) el número de la opción correcta
 // Aquí va la opción que es correcta para ser calificada
-var idOpcionCorrecta = "opcion" + "1";
+var idOpcionCorrecta = "opcion" + "2";
 
 //Contenedor solo para guiarse
 document.getElementsByClassName("contenedor")[0].style.border="solid black";
