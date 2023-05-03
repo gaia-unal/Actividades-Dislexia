@@ -68,8 +68,8 @@ body {
 
 #imagen1{
 	position:absolute;
-	left:80px;
-	top: 400px;
+	left:50px;
+	top: 190px;
 	width: 550px;
 	height: auto;
 }
@@ -82,7 +82,7 @@ body {
 	border: 2px solid #bb5b02; 
 	padding: 5px;
 	left: 210px;
-	top: 350px;
+	top: 300px;
 	width: 200px;
 	height: 30px;
 	font-size: 20px;
