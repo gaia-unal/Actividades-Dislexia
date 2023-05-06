@@ -1,6 +1,6 @@
 Grado: Primero
 Nivel: Competencia sintáctica y ortográfica
 Tipo: Selección ordenada
-Categoría: Sintaxis, coherencia, concordanciaCompetencia sintáctica, Producción escrita (Escribe diferentes
+Categoría: Sintaxis, coherencia, concordancia
+Habilidades: Competencia sintáctica, Producción escrita (Escribe diferentes
 tipos de texto teniendo en cuenta su estructura)
-Habilidades: Conciencia fonológica, Conciencia silábica, segmentación silábica, reconocimiento de sílabas, manipulación silábica
