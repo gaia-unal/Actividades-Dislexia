@@ -1,0 +1,107 @@
+body {
+	overflow:hidden;
+}
+
+@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
+
+.contenedor{
+	width: 630px;
+	max-width: 630px;
+	height: 430px;
+	max-height: 430px;
+	font-family: 'Open-Dyslexic', sans-serif; 
+	overflow: hidden;
+}
+
+#texto {
+	text-decoration: none;
+ 	color: black;
+}
+
+.instruccion {
+	display: flex; /* Establece la visualización en línea de los elementos */
+	align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .instruccion img {
+	margin-right: 10px; /* Agrega un margen a la derecha de la imagen para separarla de la instrucción */
+  }
+
+#icono-bocina {
+	width: 70px;
+	height: 70px;
+	margin-left: 5%;
+}
+
+#encabezado {
+	width: 630px;
+	height: 30px;
+}
+
+#continuar {
+	position: absolute;
+	left: 270px;
+	top: 398px;
+	display: none;
+}
+
+#btn-continuar {
+	width: 80px;
+	background-color: #16be2c;
+	border-radius: 8px;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-family: "Open-Dyslexic", sans-serif;
+	text-align: center;
+}
+
+
+#btn-continuar:hover {
+	background-color: #0d791b;
+}
+
+/* Imagen principal */
+#imagen1{
+	position:absolute;
+	left:180px;
+	width: 180px;
+	height: auto;
+}
+
+div img {
+	width: 100px;
+	height: auto;
+}
+
+#opcion3{position:absolute;top:200px;left:150px;}
+#opcion2{position:absolute;top:200px;left:270px;}
+#opcion1{position:absolute;top:200px;left:390px;}
+
+#contenedorNumeracionOpcion3{position:absolute;top:325px;left:172px;height:auto; width: 50px;text-align: center;}
+#contenedorNumeracionOpcion2{position:absolute;top:325px;left:298px;height:auto; width: 50px;text-align: center;}
+#contenedorNumeracionOpcion1{position:absolute;top:325px;left:420px;height:auto; width: 50px;text-align: center;}
+
+
+
+table{
+	/* border: 1px solid #ccc; */
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-collapse: separate;
+	table-layout:fixed;
+	border-spacing: 10px;
+}
+
+.contenedorNumeracion{
+	background-color: #57ebbe;
+	margin: auto; 
+	border-radius: 50%;
+	border:2px solid rgb(34, 102, 68);
+}
+
