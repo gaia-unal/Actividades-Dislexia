@@ -1,0 +1,5 @@
+Grado: Primero
+Competencia: Comprensión lectora
+Tipo: Selección simple simple
+Categoría: Comprensión inferencial
+Habilidades:  Interpretación y relacionamiento, Asociación historia - imágenes
