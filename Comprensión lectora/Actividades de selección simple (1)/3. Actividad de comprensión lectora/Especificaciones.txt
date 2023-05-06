@@ -1,0 +1,5 @@
+Grado: Primero
+Competencia: Comprensión lectora 
+Tipo: Selección simple
+Categoría: Información explícita
+Habilidades: Localización
