@@ -5,7 +5,7 @@ var puntaje = 0.01;
 // el usuario debería seleccionar para obtener una calificación perfecta.
 // NOTA IMPORTANTE: En este tipo de actividad deben seleccionar todas las opciones, por eso el botón de continuar no aparecerá hasta que se hayan seleccionado
 // todas las opciones que están listadas en el siguiente arreglo
-var opcionesCorrectasEnOrden = ["opcion1", "opcion2"];
+var opcionesCorrectasEnOrden = ["opcion1", "opcion2", "opcion3","opcion4"];
 
 // Variables para guardar el valor de las opciones buenas y malas
 var valorBueno = 1/opcionesCorrectasEnOrden.length;

@@ -28,13 +28,22 @@
 				</audio>
 			</div>
 			<!-- Aquí va la instrucción de la actividad -->
-			<a href="#" onclick="sonido(0)" style="text-decoration:none; outline:none;"><h2 id="texto" title="¡Da clic para escuchar!">Selecciona en orden las palabras</h2></a>
+			<a href="#" onclick="sonido(0)" style="text-decoration:none; outline:none;"><h2 id="texto" title="¡Da clic para escuchar!">Selecciona de forma ordenada</h2></a>
 		</div>
+
 
 		<!-- Aquí van las opciones de respuesta -->
 		<table>
 			<!-- En esta fila poner las opciones de selección en columnas -->
 			<tr>
+				<td>
+					<div id="opcion3">
+						<a href="#" onclick="seleccionar(3)" class="opciones" id="3"><img src="opcion3.png" height="32" alt="sílaba GUE" title="Clic para escuchar"></a>
+						<audio id="audio3" controls hidden="true">
+							<source src="audio3.mp3" type="audio/mpeg">
+						</audio>
+					</div>
+				</td>
 				<td>
 					<div id="opcion2">
 						<a href="#" onclick="seleccionar(2)" class="opciones" id="2"><img src="opcion2.png" height="32" alt="sílaba BUR" title="Clic para escuchar"></a>
@@ -51,11 +60,24 @@
 						</audio>
 					</div>
 				</td>
+				<td>
+					<div id="opcion4">
+						<a href="#" onclick="seleccionar(4)" class="opciones" id="4"><img src="opcion4.png" height="32" alt="sílaba SA" title="Clic para escuchar"></a>
+						<audio id="audio4" controls hidden="true">
+							<source src="audio4.mp3" type="audio/mpeg">
+						</audio>
+					</div>
+				</td>
 			</tr>
 				<!-- En esta fila poner tantas columnas de la clase numeracionImagen# como opciones se tengan -->
 			<!-- El # en el id es el respectivo a la columna en la fila superior, es decir, si en la primera columna de la primera fila el id es imagen3
 			entonces el id de la primera columna de esta fula será numeracionImagen3 -->
 			<tr> 
+				<td>
+					<div id = "contenedorNumeracionOpcion3" class = "contenedorNumeracion" style="visibility: hidden;">
+						<p id = "numeracionOpcion3" style="visibility: hidden;">X</p>
+					</div>
+				</td>
 				<td>
 					<div id = "contenedorNumeracionOpcion2" class = "contenedorNumeracion" style="visibility: hidden;">
 						<p id = "numeracionOpcion2" style="visibility: hidden;">X</p>
@@ -66,16 +88,15 @@
 						<p id = "numeracionOpcion1" style="visibility: hidden;">X</p>
 					</div>
 				</td>
+				<td>
+					<div id = "contenedorNumeracionOpcion4" class="contenedorNumeracion" style="visibility: hidden;">
+						<p id = "numeracionOpcion4" style="visibility: hidden;">X</p>
+					</div>
+				</td>
 			</tr>
 		</table>
 
-		<!-- Aquí va la imagen correspondiente -->
-		<div>
-			<a href="#" onclick="sonido(3)"><img src="imagenPalabras.png" alt="imagen de las palabras: el, sol, brillante y es" id="imagen1" title="Escucha aquí la palabra"></a>
-			<audio id="audio3" controls hidden="true">
-				<source src="audio3.mp3" type="audio/mpeg">
-			</audio>
-		</div>
+		
 		
 
 		<!-- Aquí va el botón de continuar -->
