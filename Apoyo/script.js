@@ -18,11 +18,18 @@ function mostrarSiguiente() {
 	//Se muestra la imagen que tiene como nombre el idSiguiente
 	//Pero primero, se oculta la imagen actual
 	idActual = idSiguiente - 1;
+	// Si el idSiguiente es el último que es el 27, entnces el idsiguiente va a a ser 'imagen' + '1', que es la primera
+	if (idActual == 27) {
+		idSiguiente = 1;
+	}
 	idActual = 'imagen' + idActual;
+	// Se oculta la imagen actual
 	document.getElementById(idActual).style.visibility = "hidden";
 	// Ahora sí, se muestra la imagen siguiente
 	idSiguiente = 'imagen' + idSiguiente;
 	document.getElementById(idSiguiente).style.visibility = "visible";
+	
+	ocultarContinuar();
 }
 
 // NO MOVER

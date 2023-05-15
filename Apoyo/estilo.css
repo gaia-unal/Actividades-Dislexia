@@ -41,7 +41,7 @@ body {
 #continuar {
 	position: absolute;
 	left: 400px;
-	top: 398px;
+	top: 384px;
 	display: none;
 }
 
@@ -68,27 +68,19 @@ body {
 
 #imagen1{
 	position:absolute;
-	left:180px;
-	width: 270px;
+	left:170px;
+	width: 260px;
 	height: auto;
-	top: 130px;
+	top: 100px;
 }
 
 
-#imagen2{
-	position:absolute;
-	left:180px;
-	width: 260px;
-	height: auto;
-	top: 130px;
-	visibility: hidden;
-}
 
-#imagen3{
+.imagenes  {
 	position:absolute;
-	left:180px;
+	left:170px;
 	width: 260px;
 	height: auto;
-	top: 130px;
+	top: 100px;
 	visibility: hidden;
 }
