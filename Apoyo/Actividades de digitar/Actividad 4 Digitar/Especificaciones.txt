@@ -1,0 +1,5 @@
+Grado: Primero
+Compentencia: Compentencia fonológica, léxica y ortográfica
+Tipo: Digitar
+Categoría: Letras
+Habilidades: Conciencia fonológica, Asociación imagen - letra, Ortografía
