@@ -1,0 +1,5 @@
+Grado: Primero
+Competencia: Comprensión lectora
+Tipo: Selección simple
+Categoría: Comprensión inferencial
+Habilidades: Asociación característica-imagen, Interpretación y Relacionamiento, Concordancia
