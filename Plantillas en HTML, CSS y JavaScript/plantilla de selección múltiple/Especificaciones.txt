@@ -1,0 +1,5 @@
+Grado: Primero
+Nivel: Compentencia fonológica y léxica
+Tipo: Selección múltiple
+Categoría: Conocimiento del alfabeto
+Habilidades: Conciencia fonológica, Reconocimiento de letras y alfabetización, decodificación de palabras

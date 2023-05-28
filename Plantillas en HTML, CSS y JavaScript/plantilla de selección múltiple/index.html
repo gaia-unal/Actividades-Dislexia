@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<!--
+	Cambiar los * por la comeptencia que evalúe la actividad. Por ejemplo, si es una actividad del nivel conciencia fonológica para el grado primero 
+	Poner Actividad Fonológica Gr 1
+	-->
+	<title >Actividad Actividad Fonológica Gr 1</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
+</head>
+
+<body>
+	<div class="contenedor">
+		<!-- El encabezado: -->
+		<img id= "encabezado" src="encabezado.png" alt="encabezado de color verde menta">
+
+		<div class="instruccion">
+			<div>
+				<a href="#" onmouseover="sonido(0)" ><img src="bocina.png" alt="Ícono de bocina" id="icono-bocina" title="¡Escucha aquí!"></a>
+				<audio id="audio0" class="audio-element" controls hidden="true">
+					<source src="audio0.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+			<!-- Aquí va la instrucción de la actividad -->
+			<a href="#" onclick="sonido(0)" style="text-decoration:none; outline:none;"><h2 id="texto" title="¡Da clic para escuchar!">Selecciona todas las letras M de las siguientes:</h2></a>  
+			<!-- * Recuerda que el sonido de la M es mmmmmmmm * -->
+		</div>
+
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<div id="opcion1">
+							<a href="#" class="opciones" id="1" onClick="seleccionar(1)"><img src="letra1.png" height="60" alt="opcion1"></a>
+						</div>
+					</td>
+					<td>
+						<div id="opcion2">
+							<a href="#" class="opciones" id="2" onClick="seleccionar(2)"><img src="letra2.png" height="60" alt="opcion2"></a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div id="opcion3">
+							<a href="#" class="opciones" id="3" onClick="seleccionar(3)"><img src="letra3.png" height="60" alt="opcion3"></a>
+						</div>
+					</td>
+					<td>
+						<div id="opcion4">
+							<a href="#" class="opciones" id="4" onClick="seleccionar(4)"><img src="letra4.png" height="60"alt="opcion4"></a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div id="opcion5">
+							<a href="#" class="opciones" id="5" onClick="seleccionar(5)"><img src="letra5.png" height="60" alt="opcion5"></a>
+						</div>
+					</td>
+					<td>
+						<div id="opcion6">
+							<a href="#" class="opciones" id="6" onClick="seleccionar(6)"><img src="letra6.png" height="60" alt="opcion6"></a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div id="opcion7">
+							<a href="#" class="opciones" id="7" onClick="seleccionar(7)"><img src="letra7.png" height="60" alt="opcion7"></a>
+						</div>
+					</td>
+					<td>
+						<div id="opcion8">
+							<a href="#" class="opciones" id="8" onClick="seleccionar(8)"><img src="letra8.png" height="60" alt="opcion8"></a>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+
+		<div id="continuar">
+			<button id="btn-continuar" onclick="sonido(20)" title="Clic para continuar">Continuar</button>
+			<audio id="audio20" class="audio-element" controls hidden="true">
+				<source src="audio20.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>

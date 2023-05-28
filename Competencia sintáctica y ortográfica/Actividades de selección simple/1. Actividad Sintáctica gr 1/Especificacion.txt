@@ -1,0 +1,5 @@
+Grado: Primero
+Competencia: Competencia Sintática y ortográfica
+Tipo: Selección simple
+Categoría: Sintaxis, puntuación 
+Habilidades: Competencia sintáctica, competencia ortográfica.
