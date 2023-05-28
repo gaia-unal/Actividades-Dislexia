@@ -16,6 +16,19 @@ function ocultarContinuar() {
 }
 // Fin para reproducir sonido
 function sonido(id) {
+	// Verificamos que no haya ningun audio reproduciendose, o sino lo detenemos
+
+	let audioElements = document.getElementsByClassName("audio-element");
+    
+    for (let i = 0; i < audioElements.length; i++) {
+        let audio = audioElements[i];
+        
+        if (audio.id !== "audio" + id) {
+            audio.pause();
+            audio.currentTime = 0;
+        }
+    }
+	// Reproducimos el audio que queremos
 	let audio = document.getElementById("audio"+id);
 	console.log(audio);
 	audio.pause();

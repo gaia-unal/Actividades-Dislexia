@@ -23,7 +23,7 @@
 		<div class="instruccion">
 			<div>
 				<a href="#" onmouseover="sonido(0)" ><img src="bocina.png" alt="Ícono de bocina" id="icono-bocina" title="¡Escucha aquí!"></a>
-				<audio id="audio0" controls hidden="true">
+				<audio id="audio0" class="audio-element" controls hidden="true">
 					<source src="audio0.mp3" type="audio/mpeg">
 				</audio>
 			</div>
@@ -34,14 +34,14 @@
 		<!-- Aquí va la imagen correspondiente -->
 		<div>
 			<a href="#" onclick="sonido(1)"><img src="imagenPalabras.png" alt="imagen de las palabras: el, sol, brillante y es" id="imagen1" title="Escucha aquí la palabra"></a>
-			<audio id="audio1" controls hidden="true">
+			<audio id="audio1" class="audio-element" controls hidden="true">
 				<source src="audio1.mp3" type="audio/mpeg">
 			</audio>
 		</div>
 
 		<!-- Acá el usuario podrá digitar su respuesta. No cambiar nada. -->
 		<a href="#" onclick="sonido(2)"><input type="text" id="respuesta" placeholder="Escribe aquí"></a>
-		<audio id="audio2" controls hidden="true">
+		<audio id="audio2" class="audio-element" controls hidden="true">
 			<source src="audio2.mp3" type="audio/mpeg">
 		</audio>
 
@@ -49,7 +49,7 @@
 		<!-- Aquí va el botón de continuar -->
 		<div id="continuar">
 			<button id="btn-continuar" onmouseover="sonido(5)" onclick="mostrarModal()" title="Clic para continuar">Continuar</button>
-			<audio id="audio5" controls hidden="true">
+			<audio id="audio5" class="audio-element" controls hidden="true">
 				<source src="audio5.mp3" type="audio/mpeg">
 			</audio>
 		</div>

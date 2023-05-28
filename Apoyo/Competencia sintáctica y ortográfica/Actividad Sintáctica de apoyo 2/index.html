@@ -24,7 +24,7 @@
 		<div class="instruccion">
 			<div>
 				<a href="#" onmouseover="sonido(0)" ><img src="bocina.png" alt="Ícono de bocina" id="icono-bocina" title="¡Escucha aquí!"></a>
-				<audio id="audio0" controls hidden="true">
+				<audio id="audio0" class="audio-element" controls hidden="true">
 					<source src="audio0.mp3" type="audio/mpeg">
 				</audio>
 			</div>
@@ -40,7 +40,7 @@
 				<td>
 					<div id="opcion3">
 						<a href="#" onclick="seleccionar(3)" class="opciones" id="3"><img src="opcion3.png" height="32" alt="sílaba GUE" title="Clic para escuchar"></a>
-						<audio id="audio3" controls hidden="true">
+						<audio id="audio3" class="audio-element" controls hidden="true">
 							<source src="audio3.mp3" type="audio/mpeg">
 						</audio>
 					</div>
@@ -48,7 +48,7 @@
 				<td>
 					<div id="opcion2">
 						<a href="#" onclick="seleccionar(2)" class="opciones" id="2"><img src="opcion2.png" height="32" alt="sílaba BUR" title="Clic para escuchar"></a>
-						<audio id="audio2" controls hidden="true">
+						<audio id="audio2" class="audio-element" controls hidden="true">
 							<source src="audio2.mp3" type="audio/mpeg">
 						</audio>
 					</div>
@@ -56,7 +56,7 @@
 				<td>
 					<div id="opcion1">
 						<a href="#" onclick="seleccionar(1)" class="opciones" id="1"><img src="opcion1.png" height="32" alt="sílaba HAM" title="Clic para escuchar"></a>
-						<audio id="audio1" controls hidden="true">
+						<audio id="audio1" class="audio-element" controls hidden="true">
 							<source src="audio1.mp3" type="audio/mpeg">
 						</audio>
 					</div>
@@ -64,7 +64,7 @@
 				<td>
 					<div id="opcion4">
 						<a href="#" onclick="seleccionar(4)" class="opciones" id="4"><img src="opcion4.png" height="32" alt="sílaba SA" title="Clic para escuchar"></a>
-						<audio id="audio4" controls hidden="true">
+						<audio id="audio4" class="audio-element" controls hidden="true">
 							<source src="audio4.mp3" type="audio/mpeg">
 						</audio>
 					</div>
@@ -103,7 +103,7 @@
 		<!-- Aquí va el botón de continuar -->
 		<div id="continuar">
 			<button type="button" class="btn btn-primary" onmouseover="sonido(6)" id="btn-continuar" onclick="mostrarModal()" title="Clic para continuar">Continuar</button>
-			<audio id="audio6" controls hidden="true">
+			<audio id="audio6" class="audio-element" controls hidden="true">
 				<source src="audio6.mp3" type="audio/mpeg">
 			</audio>
 		</div>
