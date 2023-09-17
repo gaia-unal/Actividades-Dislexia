@@ -14,7 +14,7 @@ document.getElementsByClassName("contenedor")[0].style.border="solid black";
 
 // Función para mostrar el botón continuar
 function mostrarContinuar() {
-	document.getElementById('continuar').style.display = "block";
+	document.getElementById('continuar').style.display = "flex";
 }
 
 // Función para ocultar el botón continuar
