@@ -17,7 +17,7 @@ var boton = document.getElementById('btn-continuar');
 boton.addEventListener('click', procesarPuntaje, false);
 
 function mostrarContinuar() {
-	document.getElementById('continuar').style.display = "block";
+	document.getElementById('continuar').style.display = "flex";
 }
 
 // NO MOVER

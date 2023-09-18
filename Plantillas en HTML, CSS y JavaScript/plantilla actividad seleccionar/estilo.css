@@ -1,79 +1,99 @@
 body {
 	overflow:hidden;
+	font-size: 100%;
 }
 
-@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
+@font-face {
+	font-family: 'Open-Dyslexic';  
+	src: url(../../Fuentes/OpenDyslexic-Regular.otf);
+}
+
+.contenedorPrincipal{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
 
 .contenedor{
-	width: 630px;
-	max-width: 630px;
-	height: 430px;
-	max-height: 430px;
+	width: 60%;
+	height: auto;
+	margin-top: 4rem;
 	font-family: 'Open-Dyslexic', sans-serif; 
 	overflow: hidden;
+}
+
+.contenedorImagen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.instruccion {
+	display: grid;
+	grid-template-columns: 15% 85%;
+	margin-top: 1rem;
+}
+
+.contenedor-opciones {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .contenedor-opciones {
+        grid-template-columns: 1fr; /* Cambiar a una sola columna en pantallas pequeñas */
+    }
 }
 
 #texto {
 	text-decoration: none;
  	color: black;
+	font-size: 2.5vw;
 }
 
-.instruccion {
-	display: flex; /* Establece la visualización en línea de los elementos */
-	align-items: center; /* Centra verticalmente los elementos */
-  }
-  
-  .instruccion img {
-	margin-right: 10px; /* Agrega un margen a la derecha de la imagen para separarla de la instrucción */
-  }
 
 #icono-bocina {
-	width: 70px;
-	height: 70px;
-	margin-left: 5%;
+	width: 90%;
 }
 
 #encabezado {
-	width: 630px;
-	height: 30px;
+	width: 50%;
 }
 
 #continuar {
-	position: absolute;
-	left: 270px;
-	top: 398px;
 	display: none;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
 }
 
 #btn-continuar {
-	width: 80px;
+	width: 20%;
 	background-color: #16be2c;
 	border-radius: 8px;
 	border: none;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 2vw;
 	padding: 8px 12px;
 	text-decoration: none;
 	font-family: "Open-Dyslexic", sans-serif;
 	text-align: center;
 }
 
-
 #btn-continuar:hover {
 	background-color: #0d791b;
 }
 
-
 #imagen1{
-	position:absolute;
-	left:180px;
-	width: 150px;
-	height: auto;
+	width: 30%;
+	margin-bottom: 1rem;
 }
 
-#opcion1{position:absolute;top:350px;left:52px;}
-#opcion2{position:absolute;top:350px;left:194px;}
-#opcion3{position:absolute;top:350px;left:336px;height: auto;}
-#opcion4{position:absolute;top:350px;left:478px;height: auto;}
+#opcion1, #opcion2, #opcion3, #opcion4 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}

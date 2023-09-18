@@ -16,8 +16,8 @@ body {
 
 .contenedor{
 	width: 60%;
-	height: 32rem;
-	margin-top: 5rem;
+	height: auto;
+	margin-top: 4rem;
 	font-family: 'Open-Dyslexic', sans-serif; 
 	overflow: hidden;
 }
@@ -25,14 +25,14 @@ body {
 #texto {
 	text-decoration: none;
  	color: black;
-	margin-left: 0px;
+	font-size: 2.5vw;
 }
 
 .instruccion {
 	display: grid;
 	grid-template-columns: 15% 85%;
 	margin-top: 1rem;
-  }
+}
 
 #icono-bocina {
 	width: 90%;
@@ -50,14 +50,14 @@ body {
 }
 
 #btn-continuar {
-	width: 80px;
+	width: 20%;
 	background-color: #16be2c;
 	border-radius: 8px;
 	border: none;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 2vw;
 	padding: 8px 12px;
 	text-decoration: none;
 	font-family: "Open-Dyslexic", sans-serif;
@@ -79,14 +79,12 @@ body {
 	width: 50%;
 }
 
-
 #respuesta{
 	width: 30%;
 	font-family: 'Open-Dyslexic', sans-serif; 
-	font-size: 30px; 
+	font-size: 2vw; 
 	border: 2px solid #bb5b02; 
 	padding: 5px;
-	font-size: 20px;
 	text-align: center;
 	margin-top: 2rem;
 }
