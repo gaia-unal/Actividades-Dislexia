@@ -1,14 +1,23 @@
 body {
 	overflow:hidden;
+	font-size: 100%;
 }
 
-@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
+@font-face {
+	font-family: 'Open-Dyslexic';  
+	src: url(../../Fuentes/OpenDyslexic-Regular.otf);
+}
+
+.contenedor-principal {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
 
 .contenedor{
-	width: 630px;
-	max-width: 630px;
-	height: 430px;
-	max-height: 430px;
+	width: 60%;
+	height: auto;
+	margin-top: 4rem;
 	font-family: 'Open-Dyslexic', sans-serif; 
 	overflow: hidden;
 }
@@ -16,44 +25,60 @@ body {
 #texto {
 	text-decoration: none;
  	color: black;
+	font-size: 2.5vw;
 }
 
 .instruccion {
-	display: flex; /* Establece la visualización en línea de los elementos */
-	align-items: center; /* Centra verticalmente los elementos */
-  }
-  
-  .instruccion img {
-	margin-right: 10px; /* Agrega un margen a la derecha de la imagen para separarla de la instrucción */
-  }
+	display: grid;
+	grid-template-columns: 15% 85%;
+	margin-top: 1rem;
+}
+
+.contenedorImagen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.opciones-respuesta {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 23% 77%;
+	align-items: center;
+	justify-items: center;
+	flex-wrap: wrap;
+}
+
+/* Imagen principal */
+#imagen1{
+	width: 25%;
+	margin-bottom: 5%;
+}
 
 #icono-bocina {
-	width: 70px;
-	height: 70px;
-	margin-left: 5%;
+	width: 90%;
 }
 
 #encabezado {
-	width: 630px;
-	height: 30px;
+	width: 50%;
 }
 
 #continuar {
-	position: absolute;
-	left: 270px;
-	top: 398px;
 	display: none;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
 }
 
 #btn-continuar {
-	width: 80px;
+	width: 20%;
 	background-color: #16be2c;
 	border-radius: 8px;
 	border: none;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 2vw;
 	padding: 8px 12px;
 	text-decoration: none;
 	font-family: "Open-Dyslexic", sans-serif;
@@ -65,40 +90,24 @@ body {
 	background-color: #0d791b;
 }
 
-/* Imagen principal */
-#imagen1{
-	position:absolute;
-	left:180px;
-	width: 180px;
-	height: auto;
+#opcion1, #opcion2, #opcion3, #opcion4 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 
-#opcion3{position:absolute;top:300px;left:52px;}
-#opcion2{position:absolute;top:300px;left:194px;}
-#opcion1{position:absolute;top:300px;left:336px;height: auto;}
-#opcion4{position:absolute;top:300px;left:478px;height: auto;}
-
-#contenedorNumeracionOpcion3{position:absolute;top:345px;left:80px;height:auto; width: 50px;text-align: center;}
-#contenedorNumeracionOpcion2{position:absolute;top:345px;left:222px;height:auto; width: 50px;text-align: center;}
-#contenedorNumeracionOpcion1{position:absolute;top:345px;left:364px;height:auto; width: 50px;text-align: center;}
-#contenedorNumeracionOpcion4{position:absolute;top:345px;left:506px;height:auto; width: 50px;text-align: center;}
-
-
-
-table{
-	/* border: 1px solid #ccc; */
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	border-collapse: separate;
-	table-layout:fixed;
-	border-spacing: 10px;
-}
-
-.contenedorNumeracion{
+.contenedorNumeracion {
 	background-color: #57ebbe;
-	margin: auto; 
+	margin: 5%;
 	border-radius: 50%;
-	border:2px solid rgb(34, 102, 68);
+	border: 2px solid rgb(34, 102, 68);
+	width: 45%; /* Ajusta el ancho y alto según tus necesidades */
+	height: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px; /* Ajusta el tamaño del número */
+	font-weight: bold; /* Opcional: ajusta el peso de la fuente */
+	color: #302f2f; /* Opcional: ajusta el color del número */
 }
-

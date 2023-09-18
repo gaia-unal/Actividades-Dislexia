@@ -26,7 +26,7 @@ boton.addEventListener('click', procesarPuntaje, false);
 
 // Función para mostrar el botón de continuar
 function mostrarContinuar() {
-	document.getElementById('continuar').style.display = "block";
+	document.getElementById('continuar').style.display = "flex";
 }
 
 // Función para ocultar el botón de continuar
