@@ -65,21 +65,26 @@ body {
 }
 
 /* For response options */
-
 .contenedor-opciones {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */
-	grid-gap: 20px; /* Espacio entre las celdas */
-  }
-  
-  /* Diseño de 2 columnas en pantallas más pequeñas */
-  @media (max-width: 300px) {
-	.contenedor-opciones {
-	  grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas más pequeñas */
-	}
-  }
+	grid-template-columns: repeat(4, 1fr);
+	/* 4 columnas en pantallas grandes */
+	grid-gap: 20px;
+	/* Espacio entre las celdas */
+}
 
-#opcion1, #opcion2, #opcion3, #opcion4 {
+/* Diseño de 2 columnas en pantallas más pequeñas */
+@media (max-width: 300px) {
+	.contenedor-opciones {
+		grid-template-columns: repeat(2, 1fr);
+		/* 2 columnas en pantallas más pequeñas */
+	}
+}
+
+#opcion1,
+#opcion2,
+#opcion3,
+#opcion4 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;

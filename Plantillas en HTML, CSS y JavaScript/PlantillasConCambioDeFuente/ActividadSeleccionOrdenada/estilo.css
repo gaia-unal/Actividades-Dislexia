@@ -80,7 +80,7 @@ body {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 290px) {
+@media (max-width: 500px) {
 	.opciones-respuesta {
 		grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
 	}
