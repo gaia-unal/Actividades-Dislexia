@@ -1,5 +1,5 @@
 Grado: Primero
-Nivel: Compentencia fonológica y léxica
-Tipo: Selección múltiple
-Categoría: Conocimiento del alfabeto
-Habilidades: Conciencia fonológica, Reconocimiento de letras y alfabetización, decodificación de palabras
+Nivel: Discriminación visual
+Tipo: Selección múltiple, Seleccionar todas las instancias de una letra, símbolo o número (se usan letras, símbolos o números con los que se suele tener mayores confusiones, como b-d, p-q, m-n, m-w, entre otros).
+Categoría: * Reconocimiento de letras * Reconocimiento de símbolos * Reconocimiento de números
+Habilidades: * Atención visual * Memoria visual * Reconocimiento del alfabeto

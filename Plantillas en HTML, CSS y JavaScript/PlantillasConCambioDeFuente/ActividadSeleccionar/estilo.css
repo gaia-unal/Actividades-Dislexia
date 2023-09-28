@@ -73,11 +73,12 @@ body {
 	/* Espacio entre las celdas */
 }
 
-/* Diseño de 2 columnas en pantallas más pequeñas */
+
+/* Two-column layout on smaller screens */
 @media (max-width: 300px) {
 	.contenedor-opciones {
 		grid-template-columns: repeat(2, 1fr);
-		/* 2 columnas en pantallas más pequeñas */
+		/* 2 columns on smaller screens */
 	}
 }
 
