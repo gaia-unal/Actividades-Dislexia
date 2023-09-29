@@ -1,16 +1,17 @@
 
-//Contenedor solo para guiarse
+// Container only for reference
 document.getElementsByClassName("contenedor")[0].style.border="solid black";
 
+// Function to show the continue button
 function mostrarContinuar() {
 	document.getElementById('continuar').style.display = "flex";
 }
 
-// NO MOVER
+// Function to hide the continue button
 function ocultarContinuar() {
 	document.getElementById('continuar').style.display = "none";
 }
-// Fin para reproducir sonido
+// Function to play sound
 function sonido(id) {
 	let audio = document.getElementById("audio"+id);
 	console.log(audio);
@@ -26,6 +27,10 @@ function sonido(id) {
 const changeFontButton = document.getElementById("changeFont");
 const textElement = document.getElementById("texto");
 var boton = document.getElementById('btn-continuar');
+boton.addEventListener('click', function() {
+	// Send a message to the React component in the parent
+	window.parent.postMessage('puntaje', '*');
+  });
 
 // Obtain the elements to which the image must be changed
 const imageElement = document.getElementById("imagen1");
