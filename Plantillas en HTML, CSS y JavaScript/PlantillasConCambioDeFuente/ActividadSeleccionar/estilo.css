@@ -8,7 +8,8 @@ body {
 
 @font-face {
 	font-family: 'Open-Dyslexic';
-	src: url(../../../Fuentes/OpenDyslexic-Regular.otf);
+	/* When we upload this at the server, it's necessary to change the domain 'http://localhost:3000' */
+	src: url('http://localhost:3000/fonts/OpenDyslexic-Regular.otf') format('opentype');
 }
 
 /* Main container */

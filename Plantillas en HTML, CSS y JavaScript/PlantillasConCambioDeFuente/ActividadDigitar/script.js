@@ -74,6 +74,7 @@ function procesarPuntaje() {
 		ocultarContinuar();
 	} else {
 		// Here, the score is sent for global processing
+		window.parent.postMessage('Mensaje desde el iframe', '*');
 	}
 }
 
@@ -91,8 +92,8 @@ function Correcto() {
 
 // Function to play the audio
 function sonido(id) {
-	// Verificamos que no haya ningun audio reproduciendose, o sino lo detenemos
-
+	
+	// We check that there is no audio playing, and if there is, we stop it
 	let audioElements = document.getElementsByClassName("audio-element");
     
     for (let i = 0; i < audioElements.length; i++) {

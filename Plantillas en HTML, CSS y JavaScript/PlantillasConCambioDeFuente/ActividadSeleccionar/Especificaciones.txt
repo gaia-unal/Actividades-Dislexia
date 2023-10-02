@@ -1,6 +1,6 @@
+Tipo actividad: Seleccionar una palabra de acuerdo a su representación gráfica
 Grado: Primero
-Competencia: Competencia Fonológica y léxica 
-Tipo: Selección simple
-Categoría: Léxica
-Habilidades: Conciencia léxica, conocimiento de palabras, asociación de palabras
-Tiempo
+Competencia: Competencia Fonológica
+Tipo plantilla: Selección simple
+Categoría: * Asociación palabra-sonido-gráfico * Léxico
+Habilidades: * Conciencia léxica * Asociación de palabras

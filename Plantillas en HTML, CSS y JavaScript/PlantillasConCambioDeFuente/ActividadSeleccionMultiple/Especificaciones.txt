@@ -1,6 +1,6 @@
+Tipo actividad: Seleccionar una palabra de acuerdo a su representación gráfica
 Grado: Primero
-Nivel: Discriminación visual
-Tipo: Selección múltiple, Seleccionar todas las instancias de una letra, símbolo o número (se usan letras, símbolos o números con los que se suele tener mayores confusiones, como b-d, p-q, m-n, m-w, entre otros).
-Categoría: * Reconocimiento de letras * Reconocimiento de símbolos * Reconocimiento de números
-Habilidades: * Atención visual * Memoria visual * Reconocimiento del alfabeto
-Tiempo
+Competencia: Competencia Fonológica
+Tipo plantilla: Selección simple
+Categoría: * Asociación palabra-sonido-gráfico * Léxico
+Habilidades: * Conciencia léxica * Asociación de palabras
